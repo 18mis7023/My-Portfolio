@@ -53,15 +53,15 @@ export const NavMenu=styled.div`
     }
 `
 
-export const NavBtn=styled.nav`
-    display:flex;
-    align-items:center;
-    margin-right:24px;
+// export const NavBtn=styled.nav`
+//     display:flex;
+//     align-items:center;
+//     margin-right:24px;
 
-    @media screenand (max-width:768px){
-        display:none;
-    }
-`
+//     @media screenand (max-width:768px){
+//         display:none;
+//     }
+// `
 
 export const NavImage=styled.image`
     height:200px;

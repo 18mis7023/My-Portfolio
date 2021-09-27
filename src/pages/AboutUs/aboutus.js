@@ -19,8 +19,7 @@ const AboutUs = () => {
                         <span className='skills_span'>Java</span>
                         <span className='skills_span'>Java</span>
                         <span className='skills_span'>Java</span>
-                        <span className='skills_span'>Java</span>
-                        
+                        <span className='skills_span'>Java</span>                     
                     </div>
                 </div>
             </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Nav,NavLink,Bars,NavMenu,NavImage } from './NavBarElements';
-import NavTopRightImg from '../../Images/navtopright.png'
 const Navbar = () => {
 return (
 	<>
