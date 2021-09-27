@@ -1,0 +1,124 @@
+.home{
+    width: 100vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color:#fff;
+    box-sizing: border-box;
+    padding-left: 10%;
+}
+
+.home_intro{
+    width: 50%;
+}
+
+.intro_right{
+    width: 50%;
+}
+
+.intro_title{
+    font-size: var(--font-size4);
+}
+
+.intro_title_span_main{
+    font-size: 4rem;
+}
+.intro_title_span{
+    color: #f504c6;
+    font-size: 2rem;
+}
+
+.intro_desc{
+    font-size: var(--font-size2);
+    margin-top: 1rem;
+    line-height: 2rem;
+}
+
+.intro_hirediv{
+    margin-top: 2rem;
+}
+.intro_resumediv{
+    margin-top: 2.5rem;
+    border-radius: 44.164px;
+   
+}
+.explore{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 5.18px solid transparent;
+    border-radius: 44.164px;
+    border-image: linear-gradient(101.57deg, #FC59FF 6.41%, #001AFF 112.75%);
+    border-image-slice:1;
+}
+.resume{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 5.18px solid transparent;
+    /* border-radius: 44.164px; */
+    background-image:linear-gradient(96.19deg, #FC59FF -61.44%, #FC59FF -61.42%, #001AFF 145.3%); 
+    border-image: linear-gradient(101.57deg, #FC59FF 6.41%, #001AFF 112.75%);    
+    border-image-slice:1;
+}
+
+
+.circle1img1{
+    width: 350px;
+    height: 350px;  
+    margin-top:-50%;
+    margin-left:50%;
+    background: none;
+}
+.circle2img1{
+    width: 140px;
+    height: 140px;
+    margin-top:-25%;
+    margin-left:50%;
+    background: none;
+}
+.circle3img1{
+    width: 175px;
+    height: 175px;  
+    margin-top:-20%;
+    margin-left:110%;
+    background: none;
+}
+.circle4img1{
+    width: 50px;
+    height: 50px;
+    margin-top:-5%;
+    margin-left:85%;
+    background: none;
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    .home{
+        width: 100% !important;
+    }
+
+    .home_intro{
+        width: 80%;
+    }
+    .intro_right{
+        display: none;
+    }
+}
+
+/* @media screen and (min-width: 320px) and (max-width: 600px) {
+    
+} */
+
+@media screen and (min-width: 320px){
+    .home{
+        width: 90%;
+    }
+    .intro_right{
+        width:30%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .intro_desc{
+        width: 90% !important;
+    }
+}
