@@ -1,0 +1,41 @@
+.pcard {
+  background-color: #cdd0dd;
+
+  width: -webkit-fill-available;
+  margin-top: 30px;
+  min-height: 300px;
+  border-radius: 10px;
+
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  background: #00307B;
+  box-shadow: -9px -9px 9px #5f3e6047, 9px 9px 10px rgb(7 27 59);
+
+}
+.project_intro_title{
+  color: white;
+  font-size: var(--font-size4);
+}
+.pcardtitle{
+    text-align: center;
+}
+
+.pctitle{
+    font-weight: bold;
+}
+
+.pcard_stack_div{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.picon{
+  margin:0 5px;
+}

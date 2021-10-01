@@ -1,7 +1,41 @@
 *{
     padding: 0px;
     margin: 0px;
-    background:#00122E;
+    
     /* overflow-x: hidden;
     height: auto; */
 }
+.app{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    
+}
+#root{
+    background:#00122E;
+}
+.app_child{
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (device-width: 320px){
+    .app{
+        width: 90%;
+    }
+    .links{
+        display: none;
+    }
+  }
+
+  @media screen and (device-width: 360px){
+    .app{
+        width: 90%;
+    }
+    .links{
+        display: none;
+    }
+  }

@@ -1,0 +1,21 @@
+.card {
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 19px 19px 38px #ebebeb, -19px -19px 38px #ffffff;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardtitle{
+    text-align: center;
+}
+
+.ctitle{
+    font-weight: bold;
+}

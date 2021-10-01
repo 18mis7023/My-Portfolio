@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import { Nav,NavLink,Bars,NavMenu,NavImage } from './NavBarElements';
 const Navbar = () => {
 return (
@@ -20,6 +21,9 @@ return (
 			</NavLink>
 			<NavLink to="/experience" activeStyle>
 				Experiences
+			</NavLink>
+			<NavLink to="/services" activeStyle>
+				Services
 			</NavLink>
 			<NavLink to="/projects" activeStyle>
 				Projects

@@ -1,0 +1,30 @@
+.projects {
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.pcard_holder {
+  display: grid;
+  grid-gap: 1rem;
+  justify-items: center;
+  width: auto !important;
+}
+
+@media (min-width: 600px) {
+  .pcard_holder {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+  }
+}
+
+@media (min-width: 900px) {
+  .pcard_holder {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+
+  }
+}

@@ -4,8 +4,9 @@ import Navbar from './Components/Navbar';
 import Home from './pages/Home/Home'
 import AboutUs from './pages/AboutUs/aboutus'
 import Experience from './pages/experience'
-import Projects from './pages/Projects/projects'
+import Projects from './pages/Projects/Projects'
 import ContactUs from './pages/contactus'
+import Services from './pages/Services/Services';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/experience" exact component={Experience} />
           <Route path="/projects" exact component={Projects} />
           <Route path="/contact-us" exact component={ContactUs} />
+          <Route path="/services" exact component={Services} />
         </Switch>
     </Router>
   );

@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.about_card_div1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1300px) {
+    .about{
+        flex-direction: column;
+    }
+    
+    .about_card_div1{
+        flex-direction: column;
+    }
+
+    .mobilecarddiv{
+        display: flex;
+        width: 100vw;
+        justify-content: space-evenly;
+        align-items: center;
+    } 
+}
+
+@media screen and (max-width: 768px) {
+    .mobilecarddiv{
+        flex-direction: column;
+    }
+}
