@@ -7,12 +7,15 @@ import { IoSchoolSharp } from "react-icons/io5";
 
 function Services() {
   return (
-    <div className="about" id="about" >
+    <div className="about" id="services">
       <div>
         <p className="intro_title">
           My <span className="intro_title_span"> Services </span>
         </p>
-        <p className='intro_desc' >I grasp new concepts and ideas quickly. So, I am open for training in companies</p>
+        <p className="intro_desc">
+          I grasp new concepts and ideas quickly. So, I am open for training in
+          companies
+        </p>
       </div>
 
       <div className="about_card_div1">
@@ -21,7 +24,7 @@ function Services() {
           title="Mobile App Development"
           description="I develop apps using Flutter. I consider myself as an Intermediate in app development."
         />
-        <div className="mobilecarddiv" >
+        <div className="mobilecarddiv">
           <Card
             icon={<SiWebpack color="dodgerblue" size={35} />}
             title="Full Stack Development"

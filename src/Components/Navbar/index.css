@@ -1,0 +1,26 @@
+.navbar {
+  background: #00122e;
+  /* height: 100px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw-1000px) / 2);
+  z-index: 10;
+  overflow-x: hidden;
+}
+
+.MDBNavbarItem,
+.MDBNavbarLink {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  margin-top: -120px;
+  font-size: 20px;
+}
+
+.navbar .active {
+  color: #15cdfc;
+}

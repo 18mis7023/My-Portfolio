@@ -1,0 +1,44 @@
+.experience {
+  margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.mylist1 {
+  list-style-type: circle;
+  color: white;
+}
+
+.mylist1 .mylist-info {
+  color: #ffffff;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.75) -89.2%,
+    rgba(255, 255, 255, 0.15) 78.38%
+  );
+  backdrop-filter: blur(40px);
+  border: 20px solid
+    linear-gradient(
+      180deg,
+      rgba(216, 123, 219, 0.75) -89.2%,
+      rgba(61, 48, 236, 0.822) 78.38%
+    );
+}
+
+.mylist1 .myexp {
+  all: unset;
+  background: transparent;
+  list-style-type: circle;
+  color: #ffffff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.mylist1 .myexp:hover {
+  background: transparent;
+}

@@ -1,16 +1,17 @@
-import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
-import './App.css';
-import Navbar from './Components/Navbar';
-import Home from './pages/Home/Home'
-import AboutUs from './pages/AboutUs/aboutus'
-import Experience from './pages/experience'
-import Projects from './pages/Projects/Projects'
-import ContactUs from './pages/contactus'
-import Services from './pages/Services/Services';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import Home from "./pages/Home/Home";
+import AboutUs from "./pages/AboutUs/aboutus";
+import Experience from "./pages/Experience/experience";
+import Projects from "./pages/Projects/Projects";
+import ContactUs from "./pages/contactus";
+import Services from "./pages/Services/Services";
 
 function App() {
   return (
-    <Router>
+    <div className="App">
+      {/* <Router>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
@@ -20,7 +21,15 @@ function App() {
           <Route path="/contact-us" exact component={ContactUs} />
           <Route path="/services" exact component={Services} />
         </Switch>
-    </Router>
+    </Router> */}
+      <Navbar />
+      <Home />
+      <AboutUs />
+      <Experience />
+      <Projects />
+      <Services />
+      <ContactUs />
+    </div>
   );
 }
 
