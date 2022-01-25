@@ -49,6 +49,10 @@
   border-radius: 25px;
 }
 
+.projects .card {
+  box-shadow: none;
+}
+
 @media (min-width: 600px) {
   .pcard_holder {
     grid-template-columns: repeat(1, 1fr);
