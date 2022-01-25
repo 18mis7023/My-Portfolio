@@ -4,12 +4,7 @@ import { MdDeveloperMode } from "react-icons/md";
 import { SiWebpack } from "react-icons/si";
 import "./Projects2.css";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import {
-  SiMongodb,
-  SiFlutter,
-  SiFirebase,
-  SiSocketDotIo,
-} from "react-icons/si";
+import { SiMongodb, SiFlutter, SiFirebase } from "react-icons/si";
 
 function Projects() {
   return (
@@ -77,7 +72,6 @@ function Projects() {
             <FaReact className="picon" color="#61DAFB" size={20} />,
             <FaNodeJs className="picon" color="#689F63" size={20} />,
             <SiFirebase className="picon" color="#FFCB2E" size={20} />,
-            <SiSocketDotIo className="picon" color="#00C1F2" size={20} />,
             <span>Electron</span>,
           ]}
         />
