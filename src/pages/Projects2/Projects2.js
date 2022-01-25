@@ -40,7 +40,7 @@ function Projects() {
         <PCard
           icon={<MdDeveloperMode color="lightseagreen" size={35} />}
           title="VPoll"
-          description="VPOLL is an photography contest app where users can rate the Images."
+          description="VPOLL is an photography contest app where users can rate the Images here."
           stack={[
             <SiFirebase className="picon" color="#FFCB2E" size={20} />,
             <SiFlutter className="picon" color="#00C1F2" size={20} />,
