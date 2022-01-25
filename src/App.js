@@ -8,6 +8,8 @@ import Projects from "./pages/Projects/Projects";
 import ContactUs from "./pages/contactus";
 import Services from "./pages/Services/Services";
 
+import Projects2 from "./pages/Projects2/Projects2";
+
 function App() {
   return (
     <div className="App">
@@ -27,6 +29,7 @@ function App() {
       <AboutUs />
       <Experience />
       <Projects />
+      <Projects2 />
       <Services />
       <ContactUs />
     </div>

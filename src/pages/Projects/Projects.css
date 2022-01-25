@@ -12,6 +12,10 @@
   border-radius: 25px;
 }
 
+.projects .mycard-outer .techstack {
+  float: right;
+}
+
 .projects .mycard-outer .mycard-inner {
   background: linear-gradient(
     229.34deg,

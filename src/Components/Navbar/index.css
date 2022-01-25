@@ -1,11 +1,21 @@
 .navbar {
+  box-shadow: none;
   background: #00122e;
   /* height: 100px; */
   display: flex;
   justify-content: space-between;
   padding: 0.5rem calc((100vw-1000px) / 2);
   z-index: 10;
-  overflow-x: hidden;
+  color: #15cdfc;
+  /* overflow-x: hidden; */
+}
+
+.mytopnav {
+  box-shadow: 0px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #15cdfc;
 }
 
 .MDBNavbarItem,
@@ -19,8 +29,23 @@
   cursor: pointer;
   margin-top: -120px;
   font-size: 20px;
+  box-shadow: none;
 }
 
 .navbar .active {
   color: #15cdfc;
+  box-shadow: none;
+}
+
+.circle-image {
+  height: 200px;
+  width: 200px;
+  background: linear-gradient(202.07deg, #00122e 5.91%, #fc59ff 128.53%);
+  filter: blur(50px);
+  margin-right: -120px;
+  margin-top: -120px;
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
 }

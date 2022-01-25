@@ -32,7 +32,7 @@ function Projects() {
         which are currently being developed.
       </p>
       <MDBRow className="row-cols-1 row-cols-md-3 g-5">
-        <MDBCol className="justify-content-center">
+        <MDBCol className="">
           <MDBCard
             // background="info"
             className="mycard-outer text-white h-99 w-100 mb-5"
@@ -46,6 +46,9 @@ function Projects() {
                 the bulk of the card's content.
               </MDBCardText>
             </MDBCardBody>
+            <div className="techstack">
+              <span>Django, Php</span>
+            </div>
           </MDBCard>
 
           <MDBCard

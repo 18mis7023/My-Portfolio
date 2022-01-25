@@ -80,7 +80,7 @@ const Navbar = () => {
   return (
     // -----------------------my code---------------------
     <MDBNavbar
-      className="fixed-top p-4"
+      className="mytopnav fixed-top p-4"
       expand="lg"
       dark
       bgColor="transparent"
@@ -106,12 +106,13 @@ const Navbar = () => {
           id="navbarCenteredExample"
         >
           <MDBNavbarNav fullWidth={false} className="mb-2 mb-lg-0">
-            <MDBNavbarItem>
+            <MDBNavbarItem className="mynavitem">
               <MDBNavbarLink
                 aria-current="page"
                 onClick={handleNav}
                 className={navactive1 === true ? "active" : ""}
                 href="#"
+                style={{ color: "#15cdfc" }}
               >
                 Home
               </MDBNavbarLink>
@@ -121,6 +122,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className={navactive2 === true ? "active" : ""}
                 href="#about"
+                style={{ color: "#15cdfc" }}
               >
                 About
               </MDBNavbarLink>
@@ -131,6 +133,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className={navactive3 === true ? "active" : ""}
                 href="#experience"
+                style={{ color: "#15cdfc" }}
               >
                 Experience
               </MDBNavbarLink>
@@ -141,6 +144,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className={navactive5 === true ? "active" : ""}
                 href="#projects"
+                style={{ color: "#15cdfc" }}
               >
                 Projects
               </MDBNavbarLink>
@@ -151,6 +155,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className={navactive4 === true ? "active" : ""}
                 href="#services"
+                style={{ color: "#15cdfc" }}
               >
                 Services
               </MDBNavbarLink>
@@ -161,6 +166,7 @@ const Navbar = () => {
                 onClick={handleNav}
                 className={navactive6 === true ? "active" : ""}
                 href="#contact"
+                style={{ color: "#15cdfc" }}
               >
                 Contact
               </MDBNavbarLink>
@@ -168,6 +174,7 @@ const Navbar = () => {
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBContainer>
+      <div className="circle-image"></div>
     </MDBNavbar>
   );
 };
