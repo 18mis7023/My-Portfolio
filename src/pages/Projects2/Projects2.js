@@ -96,7 +96,6 @@ function Projects() {
             <FaReact className="picon" color="#61DAFB" size={20} />,
             <FaNodeJs className="picon" color="#689F63" size={20} />,
             <SiFirebase className="picon" color="#FFCB2E" size={20} />,
-            <SiSocketDotIo className="picon" color="#00C1F2" size={20} />,
             <span>Electron</span>,
           ]}
         />
