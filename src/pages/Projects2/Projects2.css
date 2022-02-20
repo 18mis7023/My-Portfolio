@@ -5,6 +5,8 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
+  color: #ffffff;
+  margin: 8%;
 }
 
 .pcard_holder {
@@ -13,6 +15,15 @@
   justify-items: center;
   width: auto !important;
 }
+
+
+@keyframes slidebg {
+  to {
+    background-position:20vw;
+  }
+}
+
+
 
 @media (min-width: 600px) {
   .pcard_holder {

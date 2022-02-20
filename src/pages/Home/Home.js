@@ -40,16 +40,16 @@ const Home = () => {
 
       <div className="intro_right">
         {/* <OrangeBlob/> */}
-        <div className="circle1">
+        <div className="circle1 floating">
           <img src={circ1} alt="image" className="circle1img1" />
         </div>
-        <div className="circle2">
+        <div className="circle2 floating_down">
           <img src={circ2} alt="image" className="circle2img1" />
         </div>
-        <div className="circle3">
+        <div className="circle3 floating">
           <img src={circ3} alt="image" className="circle3img1" />
         </div>
-        <div className="circle4">
+        <div className="circle4 floating_down">
           <img src={circ4} alt="image" className="circle4img1" />
         </div>
       </div>
