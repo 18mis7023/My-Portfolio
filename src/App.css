@@ -5,6 +5,10 @@
   /* overflow-x: hidden;
     height: auto; */
 }
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
 .app {
   display: flex;
   align-items: center;
