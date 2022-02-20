@@ -4,7 +4,7 @@ import { MdDeveloperMode } from "react-icons/md";
 import { SiWebpack } from "react-icons/si";
 import "./Projects2.css";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiFlutter, SiFirebase } from "react-icons/si";
+import { SiMongodb, SiFlutter, SiFirebase, SiPhp, SiGithub, SiDjango, SiAndroid,SiFigma } from "react-icons/si";
 
 function Projects() {
   return (
@@ -21,7 +21,12 @@ function Projects() {
           icon={<SiWebpack color="dodgerblue" size={35} />}
           title="VCorner"
           description="VCorner is a go to platform for students where they can rate faculty, know the courses what other students taking and can share rides."
-          stack={[<span>Django</span>]}
+          stack={[
+            <SiDjango className="picon" color="#00C1F2" size={20} />,
+            <SiFigma className="picon" color="#00C1F2" size={20} />,
+          ]}
+          source={<SiGithub className="picon" color="#00C1F2" size={20} />}
+          sourcelink="https://www.figma.com/file/Fj2aGlA9XMBjAgPK4mZGgX/Portfolio?node-id=0%3A1"
         />
         <PCard
           icon={<MdDeveloperMode color="lightseagreen" size={35} />}
@@ -30,6 +35,7 @@ function Projects() {
           stack={[
             <SiFirebase className="picon" color="#FFCB2E" size={20} />,
             <SiFlutter className="picon" color="#00C1F2" size={20} />,
+            <SiPhp className="picon" color="#00C1F2" size={20} />,
           ]}
         />
         <PCard
@@ -39,6 +45,8 @@ function Projects() {
           stack={[
             <SiFirebase className="picon" color="#FFCB2E" size={20} />,
             <SiFlutter className="picon" color="#00C1F2" size={20} />,
+            <SiAndroid className="picon" color="#00C1F2" size={20} />,
+            
           ]}
         />
         <PCard

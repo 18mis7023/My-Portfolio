@@ -92,91 +92,99 @@ const Navbar = () => {
           type="button"
           data-target="#navbarCenteredExample"
           aria-controls="navbarCenteredExample"
-          aria-expanded="false"
+          aria-expanded="true"
           aria-label="Toggle navigation"
           onClick={() => setShowNavCentred(!showNavCentred)}
         >
           <MDBIcon icon="bars" fas />
         </MDBNavbarToggler>
+        {/* <div className="border" style={{width:"100%"}}> */}
+          <MDBCollapse
+            navbar
+            show={showNavCentred}
+            center
+            id="navbarCenteredExample"
+            className="zoom_in_out"
+          >
+            {/* <span className="spannav"></span>
+            <span className="spannav"></span>
+            <span className="spannav"></span>
+            <span className="spannav"></span> */}
+            <MDBNavbarNav fullWidth={false} className="mb-2 mb-lg-0">
+              <MDBNavbarItem className="mynavitem">
+                <MDBNavbarLink
+                  aria-current="page"
+                  onClick={handleNav}
+                  className={navactive1 === true ? "active" : ""}
+                  href="#"
+                  style={{ color: "#15cdfc" }}
+                >
+                  Home
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink
+                  onClick={handleNav}
+                  className={navactive2 === true ? "active" : ""}
+                  href="#about"
+                  style={{ color: "#15cdfc" }}
+                >
+                  About
+                </MDBNavbarLink>
+              </MDBNavbarItem>
 
-        <MDBCollapse
-          navbar
-          show={showNavCentred}
-          center
-          id="navbarCenteredExample"
-        >
-          <MDBNavbarNav fullWidth={false} className="mb-2 mb-lg-0">
-            <MDBNavbarItem className="mynavitem">
-              <MDBNavbarLink
-                aria-current="page"
-                onClick={handleNav}
-                className={navactive1 === true ? "active" : ""}
-                href="#"
-                style={{ color: "#15cdfc" }}
-              >
-                Home
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-            <MDBNavbarItem>
-              <MDBNavbarLink
-                onClick={handleNav}
-                className={navactive2 === true ? "active" : ""}
-                href="#about"
-                style={{ color: "#15cdfc" }}
-              >
-                About
-              </MDBNavbarLink>
-            </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink
+                  onClick={handleNav}
+                  className={navactive3 === true ? "active" : ""}
+                  href="#experience"
+                  style={{ color: "#15cdfc" }}
+                >
+                  Experience
+                </MDBNavbarLink>
+              </MDBNavbarItem>
 
-            <MDBNavbarItem>
-              <MDBNavbarLink
-                onClick={handleNav}
-                className={navactive3 === true ? "active" : ""}
-                href="#experience"
-                style={{ color: "#15cdfc" }}
-              >
-                Experience
-              </MDBNavbarLink>
-            </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink
+                  onClick={handleNav}
+                  className={navactive5 === true ? "active" : ""}
+                  href="#projects"
+                  style={{ color: "#15cdfc" }}
+                >
+                  Projects
+                </MDBNavbarLink>
+              </MDBNavbarItem>
 
-            <MDBNavbarItem>
-              <MDBNavbarLink
-                onClick={handleNav}
-                className={navactive5 === true ? "active" : ""}
-                href="#projects"
-                style={{ color: "#15cdfc" }}
-              >
-                Projects
-              </MDBNavbarLink>
-            </MDBNavbarItem>
+              <MDBNavbarItem>
+                <MDBNavbarLink
+                  onClick={handleNav}
+                  className={navactive4 === true ? "active" : ""}
+                  href="#services"
+                  style={{ color: "#15cdfc" }}
+                >
+                  Services
+                </MDBNavbarLink>
+              </MDBNavbarItem>
 
-            <MDBNavbarItem>
-              <MDBNavbarLink
-                onClick={handleNav}
-                className={navactive4 === true ? "active" : ""}
-                href="#services"
-                style={{ color: "#15cdfc" }}
-              >
-                Services
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-
-            <MDBNavbarItem>
-              <MDBNavbarLink
-                onClick={handleNav}
-                className={navactive6 === true ? "active" : ""}
-                href="#contact"
-                style={{ color: "#15cdfc" }}
-              >
-                Contact
-              </MDBNavbarLink>
-            </MDBNavbarItem>
-          </MDBNavbarNav>
-        </MDBCollapse>
+              <MDBNavbarItem>
+                <MDBNavbarLink
+                  onClick={handleNav}
+                  className={navactive6 === true ? "active" : ""}
+                  href="#contact"
+                  style={{ color: "#15cdfc" }}
+                >
+                  Contact
+                </MDBNavbarLink>
+              </MDBNavbarItem>
+            </MDBNavbarNav>
+            {/* <div className="circle-image"></div> */}
+          </MDBCollapse>
+        {/* </div> */}
       </MDBContainer>
-      <div className="circle-image"></div>
     </MDBNavbar>
   );
+  
 };
 
 export default Navbar;
+

@@ -5,11 +5,14 @@ import Home from "./pages/Home/Home";
 import AboutUs from "./pages/AboutUs/aboutus";
 import Experience from "./pages/Experience/experience";
 import Projects from "./pages/Projects/Projects";
-import ContactUs from "./pages/contactus";
+import ContactUs from "./pages/Contactus/contactus";
 import Services from "./pages/Services/Services";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Projects2 from "./pages/Projects2/Projects2";
 
+// ..
+AOS.init();
 function App() {
   return (
     <div className="App">

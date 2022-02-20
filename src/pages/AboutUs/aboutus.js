@@ -4,7 +4,12 @@ import "./aboutus.css";
 const AboutUs = () => {
   return (
     <div id="about" className="home">
-      <div className="aboutus_left"></div>
+      <div className="aboutus_left">
+        <div id="profile-image">
+          
+
+        </div>
+      </div>
 
       <div className="aboutus_right">
         <h1 className="aboutus_head_name">About me</h1>
