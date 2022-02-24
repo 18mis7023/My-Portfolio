@@ -8,13 +8,12 @@ import { IoSchoolSharp } from "react-icons/io5";
 function Services() {
   return (
     <div className="about" id="services">
-      <div>
-        <p className="intro_title">
-          My <span className="intro_title_span"> Services </span>
+      <div className="services_title">
+        <p className="p_expertise">
+          <span className="title_expertise">My</span> <span className="intro_title_span"> Expertise </span>
         </p>
-        <p className="intro_desc">
-          I grasp new concepts and ideas quickly. So, I am open for training in
-          companies
+        <p className="intro_desc intro_desc_expertise">
+          I can work with new domains and technologies. I had experienced in through Internship.
         </p>
       </div>
 

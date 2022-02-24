@@ -9,8 +9,9 @@ import { SiMongodb, SiFlutter, SiFirebase, SiPhp, SiGithub, SiDjango, SiAndroid,
 function Projects() {
   return (
     <div className="projects">
-      <p className="project_intro_title">
-        Recent <span className="intro_title_span"> Projects </span>
+      <p>
+        <span className="title_project">Recent</span>
+        <span className="intro_title_span"> Projects </span>
       </p>
       <p className="intro_desc" style={{ width: "50%" }}>
         These are the projects I have worked on. They are few other projects
