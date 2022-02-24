@@ -35,7 +35,6 @@ const Experience = () => {
                   className="mylist-info m-4"
                   tag="a"
                   href="#"
-
                   action
                 >
                   I worked within the Technical Team - developing a Indoor
@@ -58,7 +57,7 @@ const Experience = () => {
             <MDBBtn className="myexp paddingblock" tag="b" onClick={toggleSecondElement}>
               &bull; My Experience title - 2
             </MDBBtn>
-            <MDBColapse show={showSecondElement}>
+            <MDBCollapse show={showSecondElement}>
               <MDBListGroup style={{ minWidth: "22rem" }}>
                 <MDBListGroupItem
                   className="mylist-info m-4"

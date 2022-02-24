@@ -15,8 +15,11 @@
   justify-items: center;
   width: auto !important;
 }
-
-
+.title_project{
+   font-size: 2.5rem !important;
+    font-weight: bold !important;
+    color: whitesmoke !important;
+}
 @keyframes slidebg {
   to {
     background-position:20vw;
