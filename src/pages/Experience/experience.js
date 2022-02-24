@@ -25,8 +25,8 @@ const Experience = () => {
       <p className="intro_desc text-center">These are my experiences.</p>
       <div className="container">
         <MDBRow>
-          <MDBListGroup className="mylist1 m-4" style={{ minWidth: "22rem" }}>
-            <MDBBtn className="myexp" tag="a" onClick={toggleFirstElement}>
+          <MDBListGroup className="mylist1 m-4" style={{ minWidth: "17rem",padding:"10dp" }}>
+            <MDBBtn className="myexp paddingblock" tag="a" onClick={toggleFirstElement}>
               &bull; My Experience title - 1
             </MDBBtn>
             <MDBCollapse show={showFirstElement}>
@@ -35,6 +35,7 @@ const Experience = () => {
                   className="mylist-info m-4"
                   tag="a"
                   href="#"
+
                   action
                 >
                   I worked within the Technical Team - developing a Indoor
@@ -54,17 +55,16 @@ const Experience = () => {
 
         <MDBRow>
           <MDBListGroup className="mylist1 m-4" style={{ minWidth: "22rem" }}>
-            <MDBBtn className="myexp" tag="b" onClick={toggleSecondElement}>
+            <MDBBtn className="myexp paddingblock" tag="b" onClick={toggleSecondElement}>
               &bull; My Experience title - 2
             </MDBBtn>
-            <MDBCollapse show={showSecondElement}>
+            <MDBColapse show={showSecondElement}>
               <MDBListGroup style={{ minWidth: "22rem" }}>
                 <MDBListGroupItem
                   className="mylist-info m-4"
                   tag="b"
                   href="#"
-                  action
-                >
+                  action >
                   I worked within the Technical Team - developing a Indoor
                   positioning system using BLE Beacons. We developed end to end
                   working prototype of Indoor positioning system using BLE
@@ -82,7 +82,7 @@ const Experience = () => {
 
         <MDBRow>
           <MDBListGroup className="mylist1 m-4" style={{ minWidth: "22rem" }}>
-            <MDBBtn className="myexp" tag="c" onClick={toggleThirdElement}>
+            <MDBBtn className="myexp paddingblock" tag="c" onClick={toggleThirdElement}>
               &bull; My Experience title - 3
             </MDBBtn>
             <MDBCollapse show={showThirdElement}>

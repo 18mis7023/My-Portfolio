@@ -27,6 +27,9 @@
       rgba(61, 48, 236, 0.822) 78.38%
     );
 }
+.paddingblock{
+  padding: 10px !important; 
+}
 
 .mylist1 .myexp {
   all: unset;

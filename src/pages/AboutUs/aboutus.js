@@ -1,6 +1,6 @@
 import React from "react";
 import "./aboutus.css";
-
+import { SiJava,SiPython} from "react-icons/si";
 const AboutUs = () => {
   return (
     <div id="about" className="home">
@@ -26,10 +26,10 @@ const AboutUs = () => {
         <h1 className="aboutus_head_name">My Skills</h1>
         <div>
           <div className="skills_outline">
-            <span className="skills_span">Java</span>
-            <span className="skills_span">Java</span>
-            <span className="skills_span">Java</span>
-            <span className="skills_span">Java</span>
+            <span className="skills_span"><SiJava size={25}/> Java</span>
+            <span className="skills_span"><SiPython size={20}/>Phython</span>
+            <span className="skills_span">JavaScript</span>
+            <span className="skills_span">ReactJs</span>
           </div>
         </div>
       </div>
