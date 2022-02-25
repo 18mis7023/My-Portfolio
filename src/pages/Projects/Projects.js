@@ -1,18 +1,18 @@
 import React from "react";
-import PCard from "../../Components/PCard/PCard";
-import { MdDeveloperMode } from "react-icons/md";
-import { SiWebpack } from "react-icons/si";
+// import PCard from "../../Components/PCard/PCard";
+// import { MdDeveloperMode } from "react-icons/md";
+// import { SiWebpack } from "react-icons/si";
 import "./Projects.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
-import {
-  SiMongodb,
-  SiFlutter,
-  SiFirebase,
-  SiSocketDotIo,
-} from "react-icons/si";
+// import { FaReact, FaNodeJs } from "react-icons/fa";
+// import {
+//   SiMongodb,
+//   SiFlutter,
+//   SiFirebase,
+//   SiSocketDotIo,
+// } from "react-icons/si";
 import {
   MDBCard,
-  MDBCardImage,
+  // MDBCardImage,
   MDBCardBody,
   MDBCardTitle,
   MDBCardText,

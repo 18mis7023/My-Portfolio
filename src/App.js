@@ -7,6 +7,7 @@ import Experience from "./pages/Experience/experience";
 import Projects from "./pages/Projects/Projects";
 import ContactUs from "./pages/Contactus/contactus";
 import Services from "./pages/Services/Services";
+import Footer from "./Components/Footer/footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import Projects2 from "./pages/Projects2/Projects2";
@@ -54,6 +55,7 @@ function App() {
       <Projects2 />
       <Services />
       <ContactUs />
+      <Footer />
     </div>
   );
 }
