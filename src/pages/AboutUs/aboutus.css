@@ -66,10 +66,10 @@
   }
 
   .aboutus_left {
-    display: none;
+    display: block;
   }
   .aboutus_right {
-    display: none;
+    display: block;
     width: 20%;
   }
 }
@@ -80,12 +80,32 @@
 
 @media screen and (min-width: 320px) {
   .home {
-    width: 90%;
+    width: 95%;
   }
   .aboutus_right {
     width: 70%;
   }
+  .dp{
+    width: 50%;
+    margin-left: 25%;
+  }
 }
 
 @media screen and (max-width: 800px) {
+}
+
+
+
+.dp{
+  /* border: 4.18px solid transparent; */
+  border-image: linear-gradient(101.57deg, #fc59ff 6.41%, #001aff 112.75%);
+  border-image-slice: 1;
+
+}
+.circle5img1{
+    width: 50px;
+    height: 50px;
+    margin-top:5%;
+    margin-left:74%;
+    background: none;
 }

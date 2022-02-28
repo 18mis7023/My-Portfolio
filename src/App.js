@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar";
 import Home from "./pages/Home/Home";
 import AboutUs from "./pages/AboutUs/aboutus";
+import AboutUs2 from "./pages/AboutUs/aboutus2";
 import Experience from "./pages/Experience/experience";
 import Projects from "./pages/Projects/Projects";
 import ContactUs from "./pages/Contactus/contactus";
@@ -50,6 +51,7 @@ function App() {
       <Navbar />
       <Home />
       <AboutUs />
+      {/* <AboutUs2 /> */}
       <Experience />
       {/* <Projects /> */}
       <Projects2 />

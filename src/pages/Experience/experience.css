@@ -14,11 +14,7 @@
 
 .mylist1 .mylist-info {
   color: #ffffff;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.75) -89.2%,
-    rgba(255, 255, 255, 0.15) 78.38%
-  );
+  background: linear-gradient(180deg,hsl(240deg 50% 20% / 66%) -89.2%,hsl(311deg 96% 46% / 24%) 78.38%);
   backdrop-filter: blur(40px);
   border: 20px solid
     linear-gradient(

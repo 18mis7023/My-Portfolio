@@ -80,7 +80,7 @@ const Navbar = () => {
   return (
     // -----------------------my code---------------------
     <MDBNavbar
-      className="mytopnav fixed-top p-4"
+      className="mytopnav p-4"   //here i had changed fixed-top this one
       expand="lg"
       dark
       bgColor="transparent"

@@ -1,13 +1,17 @@
 import React from "react";
 import "./aboutus.css";
 import { SiJava,SiPython} from "react-icons/si";
+import dpprofile from "../../Images/dpprofile.svg";
+import circ5 from "../../Images/image4home.svg";
 const AboutUs = () => {
   return (
     <div id="about" className="home">
       <div className="aboutus_left">
         <div id="profile-image">
-          
-
+          <img className="dp" src={dpprofile}></img>          
+        </div>
+        <div className="circle5 floating_down">
+          <img src={circ5} alt="image" className="circle5img1" />
         </div>
       </div>
 
@@ -33,6 +37,8 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+
+      
     </div>
   );
 };

@@ -34,7 +34,7 @@ function footer() {
           <a
             className='btn btn-primary btn-floating m-1'
             style={{ backgroundColor: '#dd4b39' }}
-            href='mail:to:kodalihemanthchowdary4@gmail.com'
+            href='mailto:kodalihemanthchowdary4@gmail.com'
             role='button'
           >
             <MDBIcon fab icon='google' />
