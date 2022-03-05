@@ -4,7 +4,7 @@ import { MdDeveloperMode } from "react-icons/md";
 import { SiWebpack } from "react-icons/si";
 import "./Projects2.css";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import { SiMongodb, SiFlutter, SiFirebase, SiPhp, SiGithub, SiDjango, SiAndroid,SiFigma } from "react-icons/si";
+import { SiMongodb, SiFlutter, SiFirebase, SiPhp, SiGithub, SiAndroid,SiFigma,SiReact } from "react-icons/si";
 
 function Projects() {
   return (
@@ -20,14 +20,16 @@ function Projects() {
       <div className="pcard_holder">
         <PCard
           icon={<SiWebpack color="dodgerblue" size={35} />}
-          title="VCorner"
-          description="VCorner is a go to platform for students where they can rate faculty, know the courses what other students taking and can share rides."
+          title="ClipNOW"
+          description="Built for using as a Personal live Clipboard for users to share between their devices. Users can instantly create their clips using unique clip-id created by them and use it on another device to get their data. Used Real-time Firebase database for live-sharing of data."
           stack={[
-            <SiDjango className="picon" color="#00C1F2" size={20} />,
+            <FaReact className="picon" color="#61DAFB" size={20} />,
+            <SiFirebase className="picon" color="#FFCB2E" size={20} />,
+            // <SiFirebase className="picon" color="#00C1F2" size={20} />,
             <SiFigma className="picon" color="#00C1F2" size={20} />,
           ]}
           source={<SiGithub className="picon" color="#00C1F2" size={20} />}
-          sourcelink="https://www.figma.com/file/Fj2aGlA9XMBjAgPK4mZGgX/Portfolio?node-id=0%3A1"
+          sourcelink="https://clipnow.netlify.app/"
         />
         <PCard
           icon={<MdDeveloperMode color="lightseagreen" size={35} />}
@@ -85,7 +87,7 @@ function Projects() {
           ]}
         />
 
-        <PCard
+        {/* <PCard
           icon={<SiWebpack color="dodgerblue" size={35} />}
           title="FileShare"
           description="FileShare is a file sharing platform where users can download files uploaded with in 24hrs."
@@ -129,7 +131,7 @@ function Projects() {
             <SiFirebase className="picon" color="#FFCB2E" size={20} />,
             <span>Electron</span>,
           ]}
-        />
+        /> */}
       </div>
     </div>
   );

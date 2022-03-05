@@ -22,12 +22,12 @@ const Experience = () => {
       <p className="project_intro_title text-center">
         <span className="intro_title_span"> Experience </span>
       </p>
-      <p className="intro_desc text-center">These are my experiences.</p>
+      {/* <p className="intro_desc text-center">These are my experiences.</p> */}
       <div className="container">
         <MDBRow>
           <MDBListGroup className="mylist1 m-4" style={{ minWidth: "17rem",padding:"10dp" }}>
             <MDBBtn className="myexp paddingblock" tag="a" onClick={toggleFirstElement}>
-              &bull; My Experience title - 1
+            &#x261B;&#x261E; Ethical Hat Cyber Security | Gurugram
             </MDBBtn>
             <MDBCollapse show={showFirstElement}>
               <MDBListGroup style={{ minWidth: "22rem" }}>
@@ -37,15 +37,13 @@ const Experience = () => {
                   href="#"
                   action
                 >
-                  I worked within the Technical Team - developing a Indoor
-                  positioning system using BLE Beacons. We developed end to end
-                  working prototype of Indoor positioning system using BLE
-                  Beacons by creating an app using Android studio. As the GPS
-                  does not work properly inside building therefore the need for
-                  indoor positioning arises. For providing the location-based
-                  services inside the building we have implemented the indoor
-                  positioning application in our project using the Bluetooth
-                  enabled beacons.
+                  &#x2713; I had worked on mobile and web development of Alumni Reconnect Project for the VIT AP Campus. <br />&#x2713;   In the Mobile Application development worked within the Technical Team - developing a front end and backend using the Firebase and In web development worked as backed developer along with React JS Framework.
+                  We developed 1st version of the Alumni Reconnect Project and approved by VC of our campus.
+                  <br />
+                  &#x2713;  Working prototype of Alumni Reconnect platform using Java and Firebase by creating an app using Android studio.
+                  <br />
+                  &#x2713;  In the mobile application we implemented the Registration and login module along with newsfeed module.
+                
                 </MDBListGroupItem>
               </MDBListGroup>
             </MDBCollapse>
@@ -55,7 +53,7 @@ const Experience = () => {
         <MDBRow>
           <MDBListGroup className="mylist1 m-4" style={{ minWidth: "22rem" }}>
             <MDBBtn className="myexp paddingblock" tag="b" onClick={toggleSecondElement}>
-              &bull; My Experience title - 2
+            &#x261B;&#x261E; CSI Chapter | VIT-AP
             </MDBBtn>
             <MDBCollapse show={showSecondElement}>
               <MDBListGroup style={{ minWidth: "22rem" }}>
@@ -64,15 +62,13 @@ const Experience = () => {
                   tag="b"
                   href="#"
                   action >
-                  I worked within the Technical Team - developing a Indoor
-                  positioning system using BLE Beacons. We developed end to end
-                  working prototype of Indoor positioning system using BLE
-                  Beacons by creating an app using Android studio. As the GPS
-                  does not work properly inside building therefore the need for
-                  indoor positioning arises. For providing the location-based
-                  services inside the building we have implemented the indoor
-                  positioning application in our project using the Bluetooth
-                  enabled beacons.
+                  &#x2713; I had worked on mobile and web development of Alumni Reconnect Project for the VIT AP Campus. <br />&#x2713;   In the Mobile Application development worked within the Technical Team - developing a front end and backend using the Firebase and In web development worked as backed developer along with React JS Framework.
+                  We developed 1st version of the Alumni Reconnect Project and approved by VC of our campus.
+                  <br />
+                  &#x2713;  Working prototype of Alumni Reconnect platform using Java and Firebase by creating an app using Android studio.
+                  <br />
+                  &#x2713;  In the mobile application we implemented the Registration and login module along with newsfeed module.
+                
                 </MDBListGroupItem>
               </MDBListGroup>
             </MDBCollapse>
@@ -82,7 +78,7 @@ const Experience = () => {
         <MDBRow>
           <MDBListGroup className="mylist1 m-4" style={{ minWidth: "22rem" }}>
             <MDBBtn className="myexp paddingblock" tag="c" onClick={toggleThirdElement}>
-              &bull; My Experience title - 3
+            &#x261B;&#x261E; Alumni Reconnect | VIT-AP
             </MDBBtn>
             <MDBCollapse show={showThirdElement}>
               <MDBListGroup style={{ minWidth: "22rem" }}>
@@ -92,15 +88,12 @@ const Experience = () => {
                   href="#"
                   action
                 >
-                  I worked within the Technical Team - developing a Indoor
-                  positioning system using BLE Beacons. We developed end to end
-                  working prototype of Indoor positioning system using BLE
-                  Beacons by creating an app using Android studio. As the GPS
-                  does not work properly inside building therefore the need for
-                  indoor positioning arises. For providing the location-based
-                  services inside the building we have implemented the indoor
-                  positioning application in our project using the Bluetooth
-                  enabled beacons.
+                 &#x2713; I had worked on mobile and web development of Alumni Reconnect Project for the VIT AP Campus. <br />&#x2713;   In the Mobile Application development worked within the Technical Team - developing a front end and backend using the Firebase and In web development worked as backed developer along with React JS Framework.
+                  We developed 1st version of the Alumni Reconnect Project and approved by VC of our campus.
+                  <br />
+                  &#x2713;  Working prototype of Alumni Reconnect platform using Java and Firebase by creating an app using Android studio.
+                  <br />
+                  &#x2713;  In the mobile application we implemented the Registration and login module along with newsfeed module.
                 </MDBListGroupItem>
               </MDBListGroup>
             </MDBCollapse>
