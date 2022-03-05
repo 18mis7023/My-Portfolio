@@ -1,12 +1,16 @@
 .home{
-    width: 100vw;
-    height:75vh;
     display: flex;
-    align-items: center;
-    color:#fff;
-    box-sizing: border-box;
-    margin-top:-2%;
-
+  align-items: center;
+  color: #fff;
+  box-sizing: border-box;
+  padding-left: 10%;
+  background: #00122e;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-behavior: smooth;
 }
 
 .home_intro{
@@ -33,6 +37,7 @@
     font-size: var(--font-size1);
     margin-top: 1rem;
     line-height: 2rem;
+    font-family: monospace;
 }
 
 .intro_hirediv{

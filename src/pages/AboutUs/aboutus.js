@@ -5,29 +5,31 @@ import dpprofile from "../../Images/dpprofile.svg";
 import circ5 from "../../Images/image4home.svg";
 const AboutUs = () => {
   return (
-    <div id="about" className="home">
-      <div className="aboutus_left">
-        <div id="profile-image">
-          <img className="dp" src={dpprofile}></img>          
+    <div className="aboutus">
+      <div id="about" className="homeabout">
+        <div className="aboutus_left">
+          <div id="profile-image">
+            <img className="dp" src={dpprofile}></img>          
+          </div>
+          <div className="circle5 floating_down">
+            <img src={circ5} alt="image" className="circle5img1" />
+          </div>
         </div>
-        <div className="circle5 floating_down">
-          <img src={circ5} alt="image" className="circle5img1" />
+
+        <div className="aboutus_right">
+          <h1 className="aboutus_head_name">About Me</h1>
+          <p className="aboutus_desc">
+          I work on Full-Stack and Mobile Application development. More interested to work upon software applications that delight and inform.On top of that, I am a dedicated
+            worker who enjoys working in a team, making me a good addition to any
+            working team. I constantly strive on work that challenges me to learn something new and explore on different domains and new things.
+          </p>
+          <p className="aboutus_desc">
+            In addition to my programming skills, I am also in possession of good
+            social and communication skills.  I am put into.
+          </p>
         </div>
       </div>
-
-      <div className="aboutus_right">
-        <h1 className="aboutus_head_name">About me</h1>
-        <p className="aboutus_desc">
-          A technology enthusiast and a learning developer who is trying to
-          solve real-world problems by developing simple applications.
-        </p>
-        <p className="aboutus_desc">
-          In addition to my programming skills, I am also in possession of good
-          social and communication skills. On top of that, I am a dedicated
-          worker who enjoys working in a team, making me a good addition to any
-          working team I am put into.
-        </p>
-        <h1 className="aboutus_head_name">My Skills</h1>
+      <h1 className="aboutus_head_name">My Skills</h1>
         <div>
           <div className="skills_outline">
             <span className="skills_span"><SiJava size={25}/> Java</span>
@@ -36,9 +38,6 @@ const AboutUs = () => {
             <span className="skills_span">ReactJs</span>
           </div>
         </div>
-      </div>
-
-      
     </div>
   );
 };
