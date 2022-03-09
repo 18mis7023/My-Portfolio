@@ -1,0 +1,7 @@
+.heightNone{
+    height: auto !important;
+}
+.hoverAnimate:hover {
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.15, 1.25);
+  }

@@ -3,7 +3,7 @@ import "./PCard.css";
 
 function PCard(props) {
   return (
-    <div className="pcard"  >
+    <div className="pcard">
       {props.icon}
       <p className="pcardtitle pctitle">{props.title}</p>
       <p className="pcardtitle">{props.description}</p>

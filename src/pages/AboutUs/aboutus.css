@@ -1,6 +1,6 @@
 .aboutus{
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   align-items: center;
 }
 .homeabout {
@@ -112,4 +112,9 @@
     margin-top:5%;
     margin-left:74%;
     background: none;
+}
+
+
+.mLeftPerc{
+  margin-left: 10% !important;
 }

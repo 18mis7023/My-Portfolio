@@ -1,0 +1,53 @@
+.center{
+    text-align: center;
+}
+.textLeft{
+    text-align: left;
+}
+.itemsCenter{
+    align-items: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+.colorW{
+    color: white;
+}
+.colorB{
+    color: black;
+}
+.colorBL{
+    color: #3327ff;
+}
+.colorP{
+    color: #fc59ff;
+}
+.fsizeBig{
+    font-size: 24px;
+}
+.fsizeSmall{
+    font-size: 20px;
+}
+.borderGradient{
+    border: 2px solid white;
+}
+.roundedImage{
+    border-radius: 1.25em !important;
+}
+.mLeft{
+    margin-left: 3rem !important;
+}
+.mLR{
+    margin-left: 3.5rem;
+    margin-right: 3rem;
+}
+.mTB{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.fontMonospace{
+    font-family: monospace;
+}
+.fontCursive{
+    font-family: cursive;
+}
+
