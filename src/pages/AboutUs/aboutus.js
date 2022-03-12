@@ -6,6 +6,7 @@ import circ5 from "../../Images/image4home.svg";
 import { MDBContainer, MDBRow, MDBCol } from 'mdb-react-ui-kit';
 import Stack from '@mui/material/Stack';
 import Progress from "../../Components/ProgressBar/Progress";
+// import TimeLine from "../../Components/TimeLine/TimeLine";
 
 const AboutUs = () => {
   return (
