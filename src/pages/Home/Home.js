@@ -9,6 +9,7 @@ import circ4 from "../../Images/image4home.svg";
 // import circ2 from '../../Images/homecirc2.png';
 // import circ3 from '../../Images/homecirc3.png';
 // import circ4 from '../../Images/homecirc4.png';
+var resumelink="https://drive.google.com/file/d/1rSfIUp1jSRpEdcpMcP7GWQfoGbF1Phvq/view?usp=share_link";
 import {
   FloatingLettersTextBuilder,
   BlinkingCursorTextBuilder,
@@ -59,7 +60,7 @@ const Home = () => {
           </a>
         </div>
         <div className="intro_resumediv">
-          <a href="https://drive.google.com/file/d/1rSfIUp1jSRpEdcpMcP7GWQfoGbF1Phvq/view?usp=share_link" className="resume">
+          <a href={resumelink} className="resume">
             See Resume
           </a>
         </div>
