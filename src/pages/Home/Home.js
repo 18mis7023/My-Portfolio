@@ -54,12 +54,12 @@ const Home = () => {
           unknown.
         </p>
         <div className="intro_hirediv">
-          <a href="/contact" className="explore">
+          <a href="#contact" className="explore">
             Explore me
           </a>
         </div>
         <div className="intro_resumediv">
-          <a href="/contact" className="resume">
+          <a href="https://drive.google.com/file/d/1rSfIUp1jSRpEdcpMcP7GWQfoGbF1Phvq/view?usp=share_link" className="resume">
             See Resume
           </a>
         </div>
