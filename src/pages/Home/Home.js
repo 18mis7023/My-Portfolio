@@ -54,7 +54,7 @@ const Home = () => {
           unknown.
         </p>
         <div className="intro_hirediv">
-          <a href="#contact" className="explore">
+          <a href="/contact" className="explore">
             Explore me
           </a>
         </div>
