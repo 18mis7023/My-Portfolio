@@ -12,7 +12,7 @@ import Main from "./pages/Main/Main";
 import Footer from "./Components/Footer/footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-import Projects2 from "./pages/Projects2/Projects2";
+// import Projects2 from "./pages/Projects2/Projects2";
 import Pdetails from "./pages/Pdetails/Pdetails";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import DarkModeToggle from "react-dark-mode-toggle";

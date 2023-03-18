@@ -11,11 +11,11 @@ function PCard(props) {
         {props.stack.map((item, idx) => (
           <span data-aos="fade-right"
           data-aos-offset="300"
-          data-aos-easing="ease-in-sine">{item}</span>
+          data-aos-easing="ease-in-sine" key={idx}>{item}</span>
         ))}
       </div>
-      <div class="btncontainer tc">
-        <a class="rainbow rainbow-1" href={props.sourcelink} target="_blank">CheckOut <span className="">{props.source}</span></a>
+      <div className="btncontainer tc">
+        <a className="rainbow rainbow-1" href={props.sourcelink} target="_blank">CheckOut <span className="">{props.source}</span></a>
       </div>
     </div>
   );
