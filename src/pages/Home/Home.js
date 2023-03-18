@@ -16,6 +16,7 @@ import {
 import { Phrase, Char } from "animatedtxt";
 
 const Home = () => {
+  var resumelink="https://drive.google.com/file/d/1rSfIUp1jSRpEdcpMcP7GWQfoGbF1Phvq/view?usp=share_link";
   return (
     <div className="home">
       <div className="home_intro">
